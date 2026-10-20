@@ -41,6 +41,8 @@ jobs:
         with:
           combine: true
           target: ${{ matrix.config.target }}
+          # Pin bindings to the state at the Geode v5.11.2 release; bindings main is unstable
+          bindings-ref: 1605f500d053f8de122bf5c7dc6d17c24866e02e
 
   package:
     name: Package builds
