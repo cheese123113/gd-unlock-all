@@ -1,0 +1,36 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "cheese123113.unlock-all",
+	"name": "Unlock All",
+	"version": "v1.0.0",
+	"developer": "cheese123113",
+	"description": "Unlocks every icon, color and main level.",
+	"repository": "https://github.com/cheese123113/gd-unlock-all",
+	"tags": ["cheat", "customization"],
+	"settings": {
+		"unlock-icons": {
+			"type": "bool",
+			"name": "Unlock Icons",
+			"description": "Unlocks every icon in the icon kit (cubes, ships, balls, UFOs, waves, robots, spiders, swings, jetpacks, death effects, trails and ship fire).",
+			"default": true
+		},
+		"unlock-colors": {
+			"type": "bool",
+			"name": "Unlock Colors",
+			"description": "Unlocks every primary, secondary and glow color.",
+			"default": true
+		},
+		"unlock-levels": {
+			"type": "bool",
+			"name": "Unlock Main Levels",
+			"description": "Removes the secret coin requirement from locked main levels (Clubstep, Theory of Everything 2, Deadlocked, ...).",
+			"default": true
+		}
+	}
+}
