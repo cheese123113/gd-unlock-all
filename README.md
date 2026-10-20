@@ -8,6 +8,8 @@ A [Geode](https://geode-sdk.org) mod for Geometry Dash 2.2081 that unlocks:
 
 Each unlock has its own toggle in the mod settings. The mod does not edit your save file; disable it and everything is locked again.
 
+iOS is not built yet: Geode's iOS bindings currently fail to compile upstream.
+
 ## Install
 
 1. Install [Geode](https://geode-sdk.org/install) for Geometry Dash.
@@ -16,7 +18,7 @@ Each unlock has its own toggle in the mod settings. The mod does not edit your s
 
 ## Build
 
-Every push is built for Windows, macOS, iOS and Android by GitHub Actions; the combined `.geode` file is uploaded as the **Build Output** artifact of the workflow run.
+Every push is built for Windows, macOS and Android by GitHub Actions; the combined `.geode` file is uploaded as the **Build Output** artifact of the workflow run.
 
 To build locally, install the [Geode SDK and CLI](https://docs.geode-sdk.org/getting-started/), then:
 
